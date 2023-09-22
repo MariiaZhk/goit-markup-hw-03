@@ -123,6 +123,7 @@ img {
 .header.logo {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  margin-left: 76px;
 }
 
 .header-logo-accent {
@@ -131,13 +132,13 @@ img {
 
 .main-menu {
   display: flex;
+  align-items: center;
 }
 
 .main-menu-list {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .menu-item-link {
@@ -283,11 +284,12 @@ img {
 
 .footer {
   background-color: var(--navy-blue-dark-color);
-  padding: 101px 0;
+  padding: 100px 0;
 }
 
 .ftr.logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .ftr-logo-accent {
@@ -300,7 +302,7 @@ img {
 }
 
 .portfolio {
-  padding: 96px 0;
+  padding-top: 96px;
 }
 .portfolio-btn-list {
   display: flex;
@@ -329,6 +331,7 @@ img {
 .portfolio-btn:focus {
   color: var(--white-background-color);
   background-color: var(--ocean-pressed-state-color);
+  border: 1px solid transparent;
 }
 
 .projects-list {
@@ -340,11 +343,12 @@ img {
 
 .project-wrap-container {
   padding: 32px 16px;
+  border: 1px solid var(--cornflower-accent-color);
 }
 
 .project-item-title {
   width: calc((100% - (var(--indent-col) * var(--items) - 1)) / var(--items));
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .project-item-text {
