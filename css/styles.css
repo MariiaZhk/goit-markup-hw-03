@@ -35,7 +35,6 @@ body {
   overflow: hidden;
 }
 
-/* reset styles */
 h1,
 h2,
 h3,
@@ -69,7 +68,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* Common styles */
+
 .section {
   padding: 120px 0;
 }
@@ -110,7 +109,7 @@ img {
   line-height: 1.17;
   color: var(--iris-primary-brand-color);
 }
-/* Header styles */
+
 .header {
   border-bottom: 1px solid var(--cornflower-accent-color);
   display: flex;
@@ -218,8 +217,6 @@ img {
   background-color: var(--ocean-pressed-state-color);
 }
 
-/* Features section Styles */
-
 .features {
   padding: 120px 0;
 }
@@ -235,7 +232,6 @@ img {
 .feature-item-title {
   margin-bottom: 8px;
 }
-/* Work (What we are doing) Section Styles */
 
 .work {
   padding-top: 0;
@@ -250,8 +246,6 @@ img {
 .work-item {
   width: 360px;
 }
-
-/* Team Section Styles */
 
 .team {
   padding: 120px 0;
@@ -286,7 +280,6 @@ img {
   text-align: center;
 }
 
-/* Footer Styles */
 .footer {
   background-color: var(--navy-blue-dark-color);
   padding: 101px 0;
@@ -304,8 +297,6 @@ img {
   color: var(--cloud-light-color);
   letter-spacing: 0.02em;
 }
-
-/* PORTFOLIO PAGE */
 
 .portfolio {
   padding: 96px 0;
