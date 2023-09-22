@@ -9,185 +9,236 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&family=Tangerine:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
 
   <body>
-    <header>
-      <nav class="menu">
-        <a href="./index.html" class="logo link"
-          >Web<span class="logo-accent">Studio</span></a
-        >
-        <ul class="list">
-          <li><a href="./index.html" class="menu-item link">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="menu-item link">Portfolio</a>
-          </li>
-          <li><a href="" class="menu-item link">Contacts</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="header-container container">
+        <nav class="main-menu">
+          <a href="./index.html" class="header logo link"
+            >Web<span class="header-logo-accent">Studio</span></a
+          >
+          <ul class="main-menu-list list">
+            <li class="menu-item">
+              <a href="./index.html" class="menu-item-link link">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="menu-item-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-item-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="contacts">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contacts-item link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="contacts-item link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="contacts">
+          <ul class="contacts-list list">
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="contacts-item-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contacts-item-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
-      <section class="portfolio-menu">
-        <h1 hidden>Portfolio Menu</h1>
-        <ul class="list">
-          <li><button type="button" class="portfolio-btn">All</button></li>
-          <li><button type="button" class="portfolio-btn">Web Site</button></li>
-          <li><button type="button" class="portfolio-btn">App</button></li>
-          <li><button type="button" class="portfolio-btn">Design</button></li>
-          <li>
-            <button type="button" class="portfolio-btn">Marketing</button>
-          </li>
-        </ul>
+      <section class="portfolio section">
+        <div class="container">
+          <h2 class="visually-hidden">Portfolio Menu</h2>
+          <ul class="portfolio-btn-list list">
+            <li class="portfolio-btn-item">
+              <button type="button" class="portfolio-btn">All</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button type="button" class="portfolio-btn">Web Site</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button type="button" class="portfolio-btn">App</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button type="button" class="portfolio-btn">Design</button>
+            </li>
+            <li class="portfolio-btn-item">
+              <button type="button" class="portfolio-btn">Marketing</button>
+            </li>
+          </ul>
 
-        <ul class="list">
-          <li>
-            <a href="" class="portfolio-item link">
-              <img
-                src="./images/portfolio/img1.jpg"
-                alt="Banking App Interface"
-                width="360"
-                height="300"
-              />
-              <h2 class="portfolio-item-title">
-                Banking App Interface Concept
-              </h2>
-              <p class="portfolio-item-text">App</p>
-            </a>
-          </li>
+          <ul class="projects-list list">
+            <li class="project-item">
+              <a href="" class="project-item-link link">
+                <img
+                  src="./images/portfolio/img1.jpg"
+                  alt="Banking App Interface"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-wrap-container">
+                  <h3 class="project-item-title subtitle">
+                    Banking App Interface Concept
+                  </h3>
+                  <p class="project-item-text text">App</p>
+                </div>
+              </a>
+            </li>
 
-          <li>
-            <a href="" class="portfolio-item link">
-              <img
-                src="./images/portfolio/img2.jpg"
-                alt="Cashless Payment Technologies"
-                width="360"
-                height="300"
-              />
-              <h2 class="portfolio-item-title">Cashless Payment</h2>
-              <p class="portfolio-item-text">Marketing</p>
-            </a>
-          </li>
+            <li class="project-item">
+              <a href="" class="project-item-link link">
+                <img
+                  src="./images/portfolio/img2.jpg"
+                  alt="Cashless Payment Technologies"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-wrap-container">
+                  <h3 class="project-item-title subtitle">Cashless Payment</h3>
+                  <p class="project-item-text text">Marketing</p>
+                </div>
+              </a>
+            </li>
 
-          <li>
-            <a href="" class="portfolio-item link">
-              <img
-                src="./images/portfolio/img3.jpg"
-                alt="Meditation App"
-                width="360"
-                height="300"
-              />
-              <h2 class="portfolio-item-title">Meditation App</h2>
-              <p class="portfolio-item-text">App</p>
-            </a>
-          </li>
+            <li class="project-item">
+              <a href="" class="project-item-link link">
+                <img
+                  src="./images/portfolio/img3.jpg"
+                  alt="Meditation App"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-wrap-container">
+                  <h3 class="project-item-title subtitle">Meditation App</h3>
+                  <p class="project-item-text text">App</p>
+                </div>
+              </a>
+            </li>
 
-          <li>
-            <a href="" class="portfolio-item link">
-              <img
-                src="./images/portfolio/img4.jpg"
-                alt="Taxi Service"
-                width="360"
-                height="300"
-              />
-              <h2 class="portfolio-item-title">Taxi Service</h2>
-              <p class="portfolio-item-text">Marketing</p>
-            </a>
-          </li>
+            <li class="project-item">
+              <a href="" class="project-item-link link">
+                <img
+                  src="./images/portfolio/img4.jpg"
+                  alt="Taxi Service"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-wrap-container">
+                  <h3 class="project-item-title subtitle">Taxi Service</h3>
+                  <p class="project-item-text text">Marketing</p>
+                </div>
+              </a>
+            </li>
 
-          <li>
-            <a href="" class="portfolio-item link">
-              <img
-                src="./images/portfolio/img5.jpg"
-                alt=" Mobile Screen Illustrations"
-                width="360"
-                height="300"
-              />
-              <h2 class="portfolio-item-title">Screen Illustrations</h2>
-              <p class="portfolio-item-text">Design</p>
-            </a>
-          </li>
+            <li class="project-item">
+              <a href="" class="project-item-link link">
+                <img
+                  src="./images/portfolio/img5.jpg"
+                  alt=" Mobile Screen Illustrations"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-wrap-container">
+                  <h3 class="project-item-title subtitle">
+                    Screen Illustrations
+                  </h3>
+                  <p class="project-item-text text">Design</p>
+                </div>
+              </a>
+            </li>
 
-          <li>
-            <a href="" class="portfolio-item link">
-              <img
-                src="./images/portfolio/img6.jpg"
-                alt="Woman Listening Online Courses"
-                width="360"
-                height="300"
-              />
-              <h2 class="portfolio-item-title">Online Courses</h2>
-              <p class="portfolio-item-text">Marketing</p>
-            </a>
-          </li>
+            <li class="project-item">
+              <a href="" class="project-item-link link">
+                <img
+                  src="./images/portfolio/img6.jpg"
+                  alt="Woman Listening Online Courses"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-wrap-container">
+                  <h3 class="project-item-title subtitle">Online Courses</h3>
+                  <p class="project-item-text text">Marketing</p>
+                </div>
+              </a>
+            </li>
 
-          <li>
-            <a href="" class="portfolio-item link">
-              <img
-                src="./images/portfolio/img7.jpg"
-                alt="Insragram Stories"
-                width="360"
-                height="300"
-              />
-              <h2 class="portfolio-item-title">Instagram Stories Concept</h2>
-              <p class="portfolio-item-text">Design</p></a
-            >
-          </li>
+            <li class="project-item">
+              <a href="" class="project-item-link link">
+                <img
+                  src="./images/portfolio/img7.jpg"
+                  alt="Insragram Stories"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-wrap-container">
+                  <h3 class="project-item-title subtitle">
+                    Instagram Stories Concept
+                  </h3>
+                  <p class="project-item-text text">Design</p>
+                </div>
+              </a>
+            </li>
 
-          <li>
-            <a href="" class="portfolio-item link">
-              <img
-                src="./images/portfolio/img8.jpg"
-                alt="Carrying Organic Food"
-                width="360"
-                height="300"
-              />
-              <h2 class="portfolio-item-title">Organic Food</h2>
-              <p class="portfolio-item-text">Web Site</p>
-            </a>
-          </li>
+            <li class="project-item">
+              <a href="" class="project-item-link link">
+                <img
+                  src="./images/portfolio/img8.jpg"
+                  alt="Carrying Organic Food"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-wrap-container">
+                  <h3 class="project-item-title subtitle">Organic Food</h3>
+                  <p class="project-item-text text">Web Site</p>
+                </div>
+              </a>
+            </li>
 
-          <li>
-            <a href="" class="portfolio-item link">
-              <img
-                src="./images/portfolio/img9.jpg"
-                alt="Cup of Coffee"
-                width="360"
-                height="300"
-              />
-              <h2 class="portfolio-item-title">Fresh Coffee</h2>
-              <p class="portfolio-item-text">Web Site</p>
-            </a>
-          </li>
-        </ul>
+            <li class="project-item">
+              <a href="" class="project-item-link link">
+                <img
+                  src="./images/portfolio/img9.jpg"
+                  alt="Cup of Coffee"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-wrap-container">
+                  <h3 class="project-item-title subtitle">Fresh Coffee</h3>
+                  <p class="project-item-text text">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
-    <footer class="ftr">
-      <a href="./index.html" class="logo link"
-        >Web<span class="ftr-logo-accent">Studio</span></a
-      >
-      <p class="ftr-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="ftr logo link"
+          >Web<span class="ftr-logo-accent">Studio</span></a
+        >
+        <p class="ftr-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
