@@ -351,6 +351,11 @@ img {
 .project-item-title {
   width: calc((100% - (var(--indent-col) * var(--items) - 1)) / var(--items));
   margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-dark-color);
 }
 
 .project-item-text {
