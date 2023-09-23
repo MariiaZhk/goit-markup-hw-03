@@ -172,7 +172,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-text-color);
-  margin: 24px 0;
+  padding: 24px 0;
   display: inline-block;
   text-align: center;
 }
@@ -348,8 +348,11 @@ img {
   border-top: none;
 }
 
-.project-item-title {
+.project-item {
   width: calc((100% - 48px) / 3);
+}
+
+.project-item-title {
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
